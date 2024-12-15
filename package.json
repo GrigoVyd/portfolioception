@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://grigovyd.github.io/portfolioception",
+  "homepage": "http://GrigoVyd.github.io/portfolioception",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://grigovyd.github.io.github.io/portfolioception'",
+    "build-gh": "parcel build --public-url 'https://GrigoVyd.github.io.github.io/portfolioception'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
