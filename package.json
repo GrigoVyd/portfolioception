@@ -1,7 +1,7 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "My portfolio",
   "source": "src/index.html",
   "homepage": "http://GrigoVyd.github.io/portfolioception",
   "scripts": {
