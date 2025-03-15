@@ -27115,9 +27115,9 @@ var _stylesCss = require("./styles.css");
     email: "",
     gitHub: "",
     instagram: "",
-    linkedIn: "",
+    linkedIn: "grigorii-vydrevich",
     medium: "",
-    youTube: "Code"
+    youTube: ""
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
@@ -28759,9 +28759,9 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _designDeskJpeg = require("../images/design-desk.jpeg");
-var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
-const imageAltText = "desktop with books and laptop";
+ */ var _minhPhamLB9YlP8E9SgUnsplashJpg = require("../images/minh-pham-lB9ylP8e9Sg-unsplash.jpg");
+var _minhPhamLB9YlP8E9SgUnsplashJpgDefault = parcelHelpers.interopDefault(_minhPhamLB9YlP8E9SgUnsplashJpg);
+const imageAltText = "Photo by @minhphamdesign on Unsplash";
 /**
  * Project list
  *
@@ -28770,18 +28770,33 @@ const imageAltText = "desktop with books and laptop";
  */ const projectList = [
     {
         title: "Developing Generative Algorithms for Quantum Annealing",
-        description: "Investigated the integration of stochastic hardware with probabilistic software algorithms to reduce resource consumption in training and using generative models. Explored the feasibility of implementing these solutions using widely available technologies. (Research Physics Projects, 2023)",
-        url: "#"
+        description: "Investigated the integration of stochastic hardware with probabilistic software algorithms to reduce resource consumption in training and using generative models. Explored the feasibility of implementing these solutions using widely available technologies.",
+        url: "#",
+        skills: [
+            "Quantum Computing",
+            "Algorithms",
+            "Machine Learning"
+        ]
     },
     {
         title: "Effective Nonlinear Optical Response of Colloidal Solutions of Dielectric Nanoparticles",
-        description: "Investigated artificial nonlinearity in colloidal solutions of dielectric nanoparticles and the occurrence of hysteresis under total internal reflection. Conducted both experimental and numerical studies to describe these effects. (Collaborative Integration Challenge, 2023)",
-        url: "#"
+        description: "Investigated artificial nonlinearity in colloidal solutions of dielectric nanoparticles and the occurrence of hysteresis under total internal reflection. Conducted both experimental and numerical studies to describe these effects.",
+        url: "#",
+        skills: [
+            "Optics",
+            "Nanotechnology",
+            "Experimental Physics"
+        ]
     },
     {
         title: "Research of the Narrowband IR Sensors for Spectroscopy",
-        description: "Designed narrow-band filters based on metal resonant nanostructures to enhance the accuracy and reliability of measurements in a new sensing technique. Conducted experimental implementation and obtained transmission spectra of glucose and human blood. (Skills Keynotes, 2023)",
-        url: "#"
+        description: "Designed narrow-band filters based on metal resonant nanostructures to enhance the accuracy and reliability of measurements in a new sensing technique. Conducted experimental implementation and obtained transmission spectra of glucose and human blood.",
+        url: "#",
+        skills: [
+            "Spectroscopy",
+            "Nanotechnology",
+            "Biomedical Engineering"
+        ]
     }, 
 ];
 const Portfolio = ()=>{
@@ -28796,7 +28811,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 56,
+                lineNumber: 60,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28811,22 +28826,54 @@ const Portfolio = ()=>{
                             maxWidth: "40%",
                             alignSelf: "center"
                         },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _designDeskJpegDefault.default),
-                            style: {
-                                height: "90%",
-                                width: "100%",
-                                objectFit: "cover"
-                            },
-                            alt: imageAltText
-                        }, void 0, false, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 59,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _minhPhamLB9YlP8E9SgUnsplashJpgDefault.default),
+                                style: {
+                                    height: "90%",
+                                    width: "100%",
+                                    objectFit: "cover"
+                                },
+                                alt: imageAltText
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    textAlign: "center",
+                                    fontSize: "0.8rem"
+                                },
+                                children: [
+                                    "Photo by ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        href: "https://unsplash.com/@minhphamdesign?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                                        children: "Minh Pham"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 69,
+                                        columnNumber: 22
+                                    }, undefined),
+                                    " on ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        href: "https://unsplash.com/photos/brown-and-white-wooden-desk-with-chair-and-laptop-lB9ylP8e9Sg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                                        children: "Unsplash"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 69,
+                                        columnNumber: 153
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 58,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28845,12 +28892,38 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 69,
+                                            lineNumber: 76,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 68,
+                                        lineNumber: 75,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        style: {
+                                            display: "flex",
+                                            flexWrap: "wrap",
+                                            gap: "0.5rem",
+                                            marginBottom: "1rem"
+                                        },
+                                        children: project.skills.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                style: {
+                                                    backgroundColor: "#4CAF50",
+                                                    borderRadius: "5px",
+                                                    padding: "0.2rem 0.5rem",
+                                                    fontSize: "0.8rem",
+                                                    color: "#fff"
+                                                },
+                                                children: skill
+                                            }, index, false, {
+                                                fileName: "src/Components/Portfolio.jsx",
+                                                lineNumber: 80,
+                                                columnNumber: 19
+                                            }, undefined))
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28858,30 +28931,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 94,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 67,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 65,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 57,
+                lineNumber: 61,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 55,
+        lineNumber: 59,
         columnNumber: 5
     }, undefined);
 };
@@ -28895,8 +28968,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/minh-pham-lB9ylP8e9Sg-unsplash.jpg":"avGiC"}],"avGiC":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "minh-pham-lB9ylP8e9Sg-unsplash.c2e733f2.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequireb3fd")
 
