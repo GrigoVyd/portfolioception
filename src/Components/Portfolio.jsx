@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Developing Generative Algorithms for Quantum Annealing",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Investigated the integration of stochastic hardware with probabilistic software algorithms to reduce resource consumption in training and using generative models. Explored the feasibility of implementing these solutions using widely available technologies. (Research Physics Projects, 2023)",
+    url: "#",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Effective Nonlinear Optical Response of Colloidal Solutions of Dielectric Nanoparticles",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Investigated artificial nonlinearity in colloidal solutions of dielectric nanoparticles and the occurrence of hysteresis under total internal reflection. Conducted both experimental and numerical studies to describe these effects. (Collaborative Integration Challenge, 2023)",
+    url: "#",
   },
   {
-    title: "My Resume Site",
+    title: "Research of the Narrowband IR Sensors for Spectroscopy",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Designed narrow-band filters based on metal resonant nanostructures to enhance the accuracy and reliability of measurements in a new sensing technique. Conducted experimental implementation and obtained transmission spectra of glucose and human blood. (Skills Keynotes, 2023)",
+    url: "#",
   },
 ];
 
