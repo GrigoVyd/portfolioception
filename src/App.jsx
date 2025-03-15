@@ -29,9 +29,9 @@ const siteProps = {
   email: "",
   gitHub: "",
   instagram: "",
-  linkedIn: "",
+  linkedIn: "grigorii-vydrevich",
   medium: "",
-  youTube: "Code",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
