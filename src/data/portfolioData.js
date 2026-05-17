@@ -185,6 +185,32 @@ export const items = [
   // ── EVENTS ────────────────────────────────────────────────────────────────────
 
   {
+    id: 'eth-iqm-2026',
+    type: 'award',
+    date: '2026',
+    title: '1st Place – ETH Zürich Quantum Hackathon (IQM Challenge)',
+    subtitle: 'Team Q.te · IQM Quantum Computers',
+    description:
+      'Developed robust proofs of quantum entanglement on real IQM hardware — from W-states to cluster states — with on-chip mitigation of allocation overhead and faulty qubits.',
+    tags: ['competition', 'quantum', 'hardware', 'software'],
+    goals: ['research', 'quantum-engineer'],
+    highlight: true,
+    url: 'https://grigovyd.github.io/iqm_qte/presentation/index.html',
+  },
+  {
+    id: 'strasbourg-neutral-atom-2026',
+    type: 'award',
+    date: '2026',
+    title: '1st Place – Quantum Ideas Factory Strasbourg',
+    subtitle: 'European Center for Quantum Sciences · DigiQ',
+    description:
+      'Built a hardware-aware compiler mapping quantum circuits onto neutral atom processors via optical tweezers. Implemented surface code rotations for Hadamard gates and group atom movement, achieving an order-of-magnitude improvement in execution efficiency.',
+    tags: ['competition', 'quantum', 'software'],
+    goals: ['research', 'quantum-engineer'],
+    highlight: true,
+    url: 'https://github.com/Lapeno01/neutral-atom-compiler',
+  },
+  {
     id: 'epixfab-2026',
     type: 'event',
     date: '2026',
