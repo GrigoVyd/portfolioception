@@ -150,8 +150,8 @@ export const items = [
     subtitle: 'Fraunhofer Institute',
     description:
       'Won first place in the AC&C challenge at the Fraunhofer ICNAP Hackathon.',
-    tags: ['competition', 'physics', 'photonics'],
-    goals: ['research', 'photonics-rd'],
+    tags: ['competition', 'physics', 'ml'],
+    goals: ['research', 'ml-engineer'],
     highlight: true,
     url: '',
   },
