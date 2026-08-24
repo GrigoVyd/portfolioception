@@ -130,6 +130,32 @@ export const items = [
   // ── AWARDS ────────────────────────────────────────────────────────────────────
 
   {
+    id: 'fraunhofer-iof-qkd-2026',
+    type: 'award',
+    date: '2026',
+    title: '1st Place – Fraunhofer IOF Quantum Hackathon (QKD Challenge)',
+    subtitle: 'Team GGK · Fraunhofer IOF & ISI · Jena',
+    description:
+      'Implemented a full Quantum Key Distribution pipeline — bridging prepare-and-measure theory to real physical hardware, including the post-processing pipeline. Won 1st place with team GGK.',
+    tags: ['competition', 'quantum', 'hardware', 'software'],
+    goals: ['research', 'quantum-engineer'],
+    highlight: true,
+    url: '',
+  },
+  {
+    id: 'elmos-crack-the-case-2026',
+    type: 'award',
+    date: '2026',
+    title: 'Prize Winner – Crack the Case 2026',
+    subtitle: 'Elmos Semiconductor SE · Dortmund',
+    description:
+      'Two-day automotive engineering competition: diagnosed PCB hardware faults, tuned FOC motor control parameters, worked with LIN communication protocols, and wrote embedded software for automatic fault recovery. Presented solution to Elmos engineering panel.',
+    tags: ['competition', 'hardware', 'software'],
+    goals: ['robotics-engineer'],
+    highlight: true,
+    url: '',
+  },
+  {
     id: 'speedfund-2025',
     type: 'award',
     date: '2025 / 26',
