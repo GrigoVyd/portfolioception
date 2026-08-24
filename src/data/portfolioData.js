@@ -39,6 +39,7 @@ export const GOALS = {
   'robotics-engineer': 'Robotics Engineer',
   'quantum-engineer': 'Quantum Computing',
   'photonics-rd':    'Photonics & R&D',
+  'ic-design':       'IC / Embedded Systems',
 };
 
 export const items = [
@@ -134,7 +135,7 @@ export const items = [
     type: 'award',
     date: '2026',
     title: '1st Place – Fraunhofer IOF Quantum Hackathon (QKD Challenge)',
-    subtitle: 'Team GGK · Fraunhofer IOF & ISI · Jena',
+    subtitle: 'Fraunhofer IOF & ISI · Jena',
     description:
       'Implemented a full Quantum Key Distribution pipeline — bridging prepare-and-measure theory to real physical hardware, including the post-processing pipeline. Won 1st place with team GGK.',
     tags: ['competition', 'quantum', 'hardware', 'software'],
@@ -151,7 +152,7 @@ export const items = [
     description:
       'Two-day automotive engineering competition: diagnosed PCB hardware faults, tuned FOC motor control parameters, worked with LIN communication protocols, and wrote embedded software for automatic fault recovery. Presented solution to Elmos engineering panel.',
     tags: ['competition', 'hardware', 'software'],
-    goals: ['robotics-engineer'],
+    goals: ['ic-design'],
     highlight: true,
     url: '',
   },
