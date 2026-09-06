@@ -6,6 +6,7 @@
 
 import React from "react";
 import image from "../images/motion-background.jpg";
+import { TAGS } from "../data/portfolioData";
 import "../styles.css";
 
 /**
@@ -29,17 +30,47 @@ const description =
 ;
 
 /**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * Skills, grouped by theme. Each group re-uses a color from the TAGS
+ * palette in ../data/portfolioData.js so this section visually matches
+ * the tag pills in the Portfolio timeline below.
  */
-const skillsList = [
-  "Machine Learning with PyTorch",
-  "Quantum Annealing",
-  "ROS with Python and C++",
-  "Robot Vision with PointCloud analysis",
-  "SQL and no SQL",
-  "Microcontroller programming",
-  "Linux and basics of DevOps",
+const skillGroups = [
+  {
+    title: "Quantum & Nanophotonics",
+    tagKey: "quantum",
+    items: [
+      "PIC simulation & cleanroom fabrication (AMO, FZ Jülich)",
+      "Quantum Computing & Annealing — PennyLane, QuTiP, Amplify",
+      "Raman spectroscopy, SEM, PXRD",
+    ],
+  },
+  {
+    title: "Machine Learning & AI",
+    tagKey: "ml",
+    items: [
+      "PyTorch, MMPretrain",
+      "Physics-informed generative models",
+      "Conditional image & structure generation",
+    ],
+  },
+  {
+    title: "Robotics",
+    tagKey: "robotics",
+    items: [
+      "ROS with Python and C++",
+      "Robot Vision with PointCloud analysis",
+      "Microcontroller programming",
+    ],
+  },
+  {
+    title: "Software & Systems",
+    tagKey: "software",
+    items: [
+      "Docker, parallel programming (OpenMP)",
+      "Linux and basics of DevOps",
+      "SQL and NoSQL",
+    ],
+  },
 ];
 
 /**
@@ -58,11 +89,27 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul className="about-description">
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
+        <div className="skills-grid">
+          {skillGroups.map((group) => {
+            const tag = TAGS[group.tagKey];
+            return (
+              <div
+                key={group.title}
+                className="skill-card"
+                style={{ borderTopColor: tag.color }}
+              >
+                <h3 className="skill-card__title" style={{ color: tag.color }}>
+                  {group.title}
+                </h3>
+                <ul className="skill-card__list">
+                  {group.items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
         <hr />
         <p className="about-quote">{detailOrQuote}</p>
       </div>

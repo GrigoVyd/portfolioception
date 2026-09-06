@@ -127,22 +127,55 @@ img.socialIcon {
 
 .about-section {
   background-color: white;
-  width: 50%;
+  width: 64%;
   padding: 4rem;
   margin: 3rem auto;
   text-align: center;
 }
 
-.about-description {
-  font-size: 1.25rem;
-  margin: 2rem 3rem;
-  gap: 3rem;
-  text-align: left;
-  columns: 2;
-}
-
 .about-quote {
   padding: 1rem 3rem 0;
+}
+
+/* ── Skills, grouped by theme ─────────────────────────────────────────────── */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 2rem 1rem;
+  text-align: left;
+}
+
+.skill-card {
+  background: #fafafd;
+  border: 1px solid #ececf3;
+  border-top: 3px solid;
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem;
+}
+
+.skill-card__title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.6rem;
+}
+
+.skill-card__list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+}
+
+.skill-card__list li {
+  margin-bottom: 0.35rem;
+  color: #333;
+}
+
+.skill-card__list li::marker {
+  color: inherit;
 }
 
 /* Media query for screens smaller than 768px (e.g., mobile devices) */
@@ -152,10 +185,9 @@ img.socialIcon {
     padding: 2rem;
   }
 
-  .about-description {
-    columns: 1;
-    font-size: 1rem;
-    margin: 1rem 1.5rem;
+  .skills-grid {
+    grid-template-columns: 1fr;
+    margin: 1.5rem 0;
   }
 
   .about-quote {
