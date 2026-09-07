@@ -36,11 +36,20 @@ const description =
  */
 const skillGroups = [
   {
-    title: "Quantum & Nanophotonics",
+    title: "Quantum Computing",
     tagKey: "quantum",
     items: [
-      "PIC simulation & cleanroom fabrication (AMO, FZ Jülich)",
-      "Quantum Computing & Annealing — PennyLane, QuTiP, Amplify",
+      "Quantum Annealing & Optimization",
+      "QML with PennyLane, QuTiP, Amplify",
+      "Quantum Key Distribution (prepare-and-measure)",
+    ],
+  },
+  {
+    title: "Nanophotonics & Fabrication",
+    tagKey: "photonics",
+    items: [
+      "PIC simulation & design",
+      "Cleanroom fabrication (AMO, FZ Jülich)",
       "Raman spectroscopy, SEM, PXRD",
     ],
   },

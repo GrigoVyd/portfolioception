@@ -178,6 +178,19 @@ img.socialIcon {
   color: inherit;
 }
 
+/* If the last card is alone in its row (odd total), let it span full width
+   and lay its items out horizontally so the extra width isn't wasted */
+.skill-card:nth-last-child(1):nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.skill-card:nth-last-child(1):nth-child(odd) .skill-card__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2.5rem;
+  row-gap: 0.35rem;
+}
+
 /* Media query for screens smaller than 768px (e.g., mobile devices) */
 @media (max-width: 768px) {
   .about-section {
