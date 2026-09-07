@@ -39,8 +39,8 @@ const skillGroups = [
     title: "Quantum Computing",
     tagKey: "quantum",
     items: [
-      "Quantum Annealing & Optimization",
-      "QML with PennyLane, QuTiP, Amplify",
+      "Quantum Annealing & Optimization with Amplify",
+      "QML with PennyLane, QuTiP",
       "Quantum Key Distribution (prepare-and-measure)",
     ],
   },
