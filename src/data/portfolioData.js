@@ -12,6 +12,11 @@
  *   goals      – array of keys from GOALS below (controls CV download)
  *   highlight  – true = starred / featured item
  *   url        – optional link (omit or '' for no link)
+ *
+ * Items are grouped by `type` (see the section headers below) and, within
+ * each group, listed NEWEST FIRST. When adding a new item, insert it at
+ * the top of its type's section rather than appending — this keeps years
+ * running in order without needing to re-sort later.
  */
 
 export const TAGS = {
@@ -44,7 +49,7 @@ export const GOALS = {
 
 export const items = [
 
-  // ── WORK EXPERIENCE ──────────────────────────────────────────────────────────
+  // ── WORK EXPERIENCE (newest first) ───────────────────────────────────────────
 
   {
     id: 'amo-2025',
@@ -86,7 +91,7 @@ export const items = [
     url: '',
   },
 
-  // ── EDUCATION ─────────────────────────────────────────────────────────────────
+  // ── EDUCATION (newest first) ─────────────────────────────────────────────────
 
   {
     id: 'rwth-2024',
@@ -128,8 +133,34 @@ export const items = [
     url: '',
   },
 
-  // ── AWARDS ────────────────────────────────────────────────────────────────────
+  // ── AWARDS (newest first) ────────────────────────────────────────────────────
 
+  {
+    id: 'eth-iqm-2026',
+    type: 'award',
+    date: '2026',
+    title: '1st Place – ETH Zürich Quantum Hackathon (IQM Challenge)',
+    subtitle: 'Team Q.te · IQM Quantum Computers',
+    description:
+      'Developed robust proofs of quantum entanglement on real IQM hardware — from W-states to cluster states — with on-chip mitigation of allocation overhead and faulty qubits.',
+    tags: ['competition', 'quantum', 'hardware', 'software'],
+    goals: ['research', 'quantum-engineer'],
+    highlight: true,
+    url: 'https://grigovyd.github.io/iqm_qte/presentation/index.html',
+  },
+  {
+    id: 'strasbourg-neutral-atom-2026',
+    type: 'award',
+    date: '2026',
+    title: '1st Place – Quantum Ideas Factory Strasbourg',
+    subtitle: 'European Center for Quantum Sciences · DigiQ',
+    description:
+      'Built a hardware-aware compiler mapping quantum circuits onto neutral atom processors via optical tweezers. Implemented surface code rotations for Hadamard gates and group atom movement, achieving an order-of-magnitude improvement in execution efficiency.',
+    tags: ['competition', 'quantum', 'software'],
+    goals: ['research', 'quantum-engineer'],
+    highlight: true,
+    url: 'https://github.com/Lapeno01/neutral-atom-compiler',
+  },
   {
     id: 'fraunhofer-iof-qkd-2026',
     type: 'award',
@@ -209,34 +240,8 @@ export const items = [
     url: '',
   },
 
-  // ── EVENTS ────────────────────────────────────────────────────────────────────
+  // ── EVENTS (newest first) ────────────────────────────────────────────────────
 
-  {
-    id: 'eth-iqm-2026',
-    type: 'award',
-    date: '2026',
-    title: '1st Place – ETH Zürich Quantum Hackathon (IQM Challenge)',
-    subtitle: 'Team Q.te · IQM Quantum Computers',
-    description:
-      'Developed robust proofs of quantum entanglement on real IQM hardware — from W-states to cluster states — with on-chip mitigation of allocation overhead and faulty qubits.',
-    tags: ['competition', 'quantum', 'hardware', 'software'],
-    goals: ['research', 'quantum-engineer'],
-    highlight: true,
-    url: 'https://grigovyd.github.io/iqm_qte/presentation/index.html',
-  },
-  {
-    id: 'strasbourg-neutral-atom-2026',
-    type: 'award',
-    date: '2026',
-    title: '1st Place – Quantum Ideas Factory Strasbourg',
-    subtitle: 'European Center for Quantum Sciences · DigiQ',
-    description:
-      'Built a hardware-aware compiler mapping quantum circuits onto neutral atom processors via optical tweezers. Implemented surface code rotations for Hadamard gates and group atom movement, achieving an order-of-magnitude improvement in execution efficiency.',
-    tags: ['competition', 'quantum', 'software'],
-    goals: ['research', 'quantum-engineer'],
-    highlight: true,
-    url: 'https://github.com/Lapeno01/neutral-atom-compiler',
-  },
   {
     id: 'epixfab-2026',
     type: 'event',
@@ -290,7 +295,7 @@ export const items = [
     url: '',
   },
 
-  // ── PROJECTS & RESEARCH ───────────────────────────────────────────────────────
+  // ── PROJECTS & RESEARCH (newest first) ───────────────────────────────────────
 
   {
     id: 'thesis-2024',
