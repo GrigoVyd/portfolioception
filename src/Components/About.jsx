@@ -26,7 +26,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Highly motivated Master's student with a track-record of international robotics competitions. Dedicated team player who is known for sharing knowledge. Passionate about physics, robotics and everything around and in-between."
+  "Highly motivated Master's student with a track record of international robotics competitions and hackathons. Dedicated team player who is known for sharing knowledge. Passionate about physics, robotics and everything around and in-between."
 ;
 
 /**
