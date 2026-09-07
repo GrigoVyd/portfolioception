@@ -19,7 +19,7 @@ export const TAGS = {
   ml:          { label: 'ML / AI',       color: '#1D4ED8', bg: '#DBEAFE' },
   robotics:    { label: 'Robotics',      color: '#92400E', bg: '#FEF3C7' },
   physics:     { label: 'Physics',       color: '#065F46', bg: '#D1FAE5' },
-  photonics:   { label: 'Photonics',     color: '#3730A3', bg: '#E0E7FF' },
+  photonics:   { label: 'Photonics',     color: '#0E7490', bg: '#CFFAFE' },
   software:    { label: 'Software',      color: '#14532D', bg: '#DCFCE7' },
   hardware:    { label: 'Lab / HW',      color: '#7F1D1D', bg: '#FEE2E2' },
   competition: { label: 'Competition',   color: '#701A75', bg: '#FDF4FF' },
